@@ -1,0 +1,67 @@
+[project]
+name = "Highfold-MED2"
+version = "0.0.1"
+description = "Highfold - MED version 2"
+authors = [{ name = "WenTong Wang", email = "wentong.wang@highslab.com" }]
+readme = "README.md"
+requires-python = ">= 3.11"
+
+dependencies = [
+    "loguru",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+examples = []
+test = [
+    "ruff>=0.4.2",
+    "pytest",
+    "pytest-shard",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
+[tool.black]
+# 每行最大字符数
+line-length = 120
+target-version = ['py38', 'py39', 'py310', 'py311']
+exclude = '''
+(
+  \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+py_version = 311
+profile = "black"
+src_paths = [
+  "src",
+  "tests",
+  "scripts",
+]
+line_length = 120
+length_sort_straight = true
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/boltz_finetune"]

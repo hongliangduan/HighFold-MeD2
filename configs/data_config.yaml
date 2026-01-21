@@ -1,0 +1,35 @@
+task_tag: "test"
+
+data_root_dir:  "HighFold-MeD2/dataset"
+
+sequence_file_suffix: "fasta"
+
+structure_file_suffix: "pdb"
+
+extra_file_suffix: "extra"
+
+data_output_suffix: "pkl"
+data_output_dir_name: "processed"
+
+records_file_suffix: "json"
+
+use_msa: FALSE
+use_template: FALSE
+is_cyclic: True
+
+template_file_suffix: "cif"
+user_template_path: "HighFold-MeD2/dataset/templates"
+mol_dir: "/home/lab/.boltz/mols"
+msa_dir_name: "msa"
+records_dir_name: "records"
+structure_dir_name: "structures"
+constraints_dir_name: "constraints"
+templates_dir_name: "templates"
+mols_dir_name: "mols"
+
+
+
+
+
+
+

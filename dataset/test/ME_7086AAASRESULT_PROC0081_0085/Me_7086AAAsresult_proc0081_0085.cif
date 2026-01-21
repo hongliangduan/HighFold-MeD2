@@ -1,0 +1,115 @@
+data_model
+#
+loop_
+_entity.id
+_entity.type
+_entity.src_method
+_entity.pdbx_description
+_entity.formula_weight
+_entity.pdbx_number_of_molecules
+_entity.details
+1 polymer man . . 1 .
+#
+#
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.nstd_linkage
+_entity_poly.nstd_monomer
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+_entity_poly.pdbx_seq_one_letter_code_can
+1 polypeptide(L) no no A (DLE)(DPR)(PRO)(DLE)(VAL)(MAA)(MAA)(LEU) XXXXXXXX
+#
+#
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.num
+_entity_poly_seq.mon_id
+_entity_poly_seq.hetero
+1 1 DLE .
+1 2 DPR .
+1 3 PRO .
+1 4 DLE .
+1 5 VAL .
+1 6 MAA .
+1 7 MAA .
+1 8 LEU .
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_seq_id
+_atom_site.auth_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.label_asym_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.label_entity_id
+_atom_site.auth_asym_id
+_atom_site.auth_comp_id
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . DLE 1 1 ? A 1.758 7.540 14.259 1 1 A DLE 5.21 1
+ATOM 2 C CA . DLE 1 1 ? A 0.620 7.058 13.472 1 1 A DLE 4.6 1
+ATOM 3 C C . DLE 1 1 ? A 1.085 6.589 12.114 1 1 A DLE 3.68 1
+ATOM 4 O O . DLE 1 1 ? A 1.828 5.593 12.011 1 1 A DLE 3.86 1
+ATOM 5 C CB . DLE 1 1 ? A -0.087 5.937 14.184 1 1 A DLE 5.51 1
+ATOM 6 C CG . DLE 1 1 ? A -0.731 6.342 15.498 1 1 A DLE 9.54 1
+ATOM 7 C CD1 . DLE 1 1 ? A -1.747 7.450 15.355 1 1 A DLE 6.08 1
+ATOM 8 C CD2 . DLE 1 1 ? A 0.040 5.968 16.770 1 1 A DLE 8.5 1
+ATOM 9 N N . DPR 2 2 ? A 0.658 7.251 11.032 1 1 A DPR 3.8 1
+ATOM 10 C CA . DPR 2 2 ? A 1.038 6.795 9.691 1 1 A DPR 3.6 1
+ATOM 11 C C . DPR 2 2 ? A 0.746 5.307 9.514 1 1 A DPR 3.27 1
+ATOM 12 O O . DPR 2 2 ? A -0.318 4.817 9.893 1 1 A DPR 3.79 1
+ATOM 13 C CB . DPR 2 2 ? A 0.138 7.653 8.775 1 1 A DPR 4.49 1
+ATOM 14 C CG . DPR 2 2 ? A 0.010 8.953 9.545 1 1 A DPR 5.09 1
+ATOM 15 C CD . DPR 2 2 ? A -0.128 8.494 10.990 1 1 A DPR 4.69 1
+ATOM 16 N N . PRO 3 3 ? A 1.691 4.553 8.908 1 1 A PRO 3.46 1
+ATOM 17 C CA . PRO 3 3 ? A 1.440 3.151 8.598 1 1 A PRO 3.61 1
+ATOM 18 C C . PRO 3 3 ? A 1.585 2.190 9.804 1 1 A PRO 3.54 1
+ATOM 19 O O . PRO 3 3 ? A 1.482 0.981 9.577 1 1 A PRO 4.53 1
+ATOM 20 C CB . PRO 3 3 ? A 2.498 2.844 7.528 1 1 A PRO 4.79 1
+ATOM 21 C CG . PRO 3 3 ? A 3.644 3.756 7.901 1 1 A PRO 5.02 1
+ATOM 22 C CD . PRO 3 3 ? A 2.989 5.044 8.374 1 1 A PRO 4.27 1
+ATOM 23 N N . DLE 4 4 ? A 1.783 2.719 10.992 1 1 A DLE 3.43 1
+ATOM 24 C CA . DLE 4 4 ? A 1.859 1.912 12.213 1 1 A DLE 3.53 1
+ATOM 25 C C . DLE 4 4 ? A 3.176 2.221 12.937 1 1 A DLE 3.89 1
+ATOM 26 O O . DLE 4 4 ? A 4.039 1.365 13.083 1 1 A DLE 4.72 1
+ATOM 27 C CB . DLE 4 4 ? A 0.644 2.133 13.130 1 1 A DLE 3.87 1
+ATOM 28 C CG . DLE 4 4 ? A -0.720 1.837 12.515 1 1 A DLE 3.72 1
+ATOM 29 C CD1 . DLE 4 4 ? A -0.862 0.364 12.099 1 1 A DLE 3.92 1
+ATOM 30 C CD2 . DLE 4 4 ? A -1.830 2.212 13.499 1 1 A DLE 5.1 1
+ATOM 31 N N . VAL 5 5 ? A 3.292 3.469 13.397 1 1 A VAL 4.37 1
+ATOM 32 C CA . VAL 5 5 ? A 4.551 4.025 13.897 1 1 A VAL 4.27 1
+ATOM 33 C C . VAL 5 5 ? A 4.305 4.533 15.305 1 1 A VAL 4.2 1
+ATOM 34 O O . VAL 5 5 ? A 3.434 5.394 15.484 1 1 A VAL 4.6 1
+ATOM 35 C CB . VAL 5 5 ? A 5.052 5.160 12.989 1 1 A VAL 4.15 1
+ATOM 36 C CG1 . VAL 5 5 ? A 6.287 5.825 13.573 1 1 A VAL 4.79 1
+ATOM 37 C CG2 . VAL 5 5 ? A 5.335 4.589 11.587 1 1 A VAL 5.28 1
+ATOM 38 N N . MAA 6 6 ? A 5.025 4.037 16.336 1 1 A MAA 5.17 1
+ATOM 39 C CA . MAA 6 6 ? A 4.665 4.455 17.667 1 1 A MAA 5.93 1
+ATOM 40 C C . MAA 6 6 ? A 5.410 5.809 18.043 1 1 A MAA 7.69 1
+ATOM 41 O O . MAA 6 6 ? A 6.648 5.771 17.923 1 1 A MAA 9.71 1
+ATOM 42 C CB . MAA 6 6 ? A 4.911 3.496 18.818 1 1 A MAA 9.4 1
+ATOM 43 C CM . MAA 6 6 ? A 6.283 3.236 16.143 1 1 A MAA 7.25 1
+ATOM 44 N N . MAA 7 7 ? A 4.789 6.857 18.520 1 1 A MAA 6.1 1
+ATOM 45 C CA . MAA 7 7 ? A 3.328 7.076 18.578 1 1 A MAA 5.89 1
+ATOM 46 C C . MAA 7 7 ? A 2.984 8.292 17.711 1 1 A MAA 5.41 1
+ATOM 47 O O . MAA 7 7 ? A 2.426 9.274 18.173 1 1 A MAA 7.76 1
+ATOM 48 C CB . MAA 7 7 ? A 2.859 7.189 20.033 1 1 A MAA 8.65 1
+ATOM 49 C CM . MAA 7 7 ? A 5.634 7.969 18.936 1 1 A MAA 8.51 1
+ATOM 50 N N . LEU 8 8 ? A 3.370 8.164 16.437 1 1 A LEU 4.8 1
+ATOM 51 C CA . LEU 8 8 ? A 3.121 9.182 15.439 1 1 A LEU 4.81 1
+ATOM 52 C C . LEU 8 8 ? A 1.945 8.816 14.506 1 1 A LEU 5.06 1
+ATOM 53 O O . LEU 8 8 ? A 1.283 9.720 13.998 1 1 A LEU 7.65 1
+ATOM 54 C CB . LEU 8 8 ? A 4.351 9.458 14.603 1 1 A LEU 4.77 1
+ATOM 55 C CG . LEU 8 8 ? A 5.582 9.878 15.392 1 1 A LEU 5.58 1
+ATOM 56 C CD1 . LEU 8 8 ? A 6.691 10.242 14.425 1 1 A LEU 7.41 1
+ATOM 57 C CD2 . LEU 8 8 ? A 5.287 11.018 16.348 1 1 A LEU 6.8 1

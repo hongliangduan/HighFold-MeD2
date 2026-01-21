@@ -1,0 +1,135 @@
+data_model
+#
+loop_
+_entity.id
+_entity.type
+_entity.src_method
+_entity.pdbx_description
+_entity.formula_weight
+_entity.pdbx_number_of_molecules
+_entity.details
+1 polymer man . . 1 .
+#
+#
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.nstd_linkage
+_entity_poly.nstd_monomer
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+_entity_poly.pdbx_seq_one_letter_code_can
+1 polypeptide(L) no no A (DPN)(MAA)(LEU)(DIL)(DPR)(PRO)(DVA)(DPR)(MAA)(LEU) XXXXXXXXXX
+#
+#
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.num
+_entity_poly_seq.mon_id
+_entity_poly_seq.hetero
+1 1 DPN .
+1 2 MAA .
+1 3 LEU .
+1 4 DIL .
+1 5 DPR .
+1 6 PRO .
+1 7 DVA .
+1 8 DPR .
+1 9 MAA .
+1 10 LEU .
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_seq_id
+_atom_site.auth_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.label_asym_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.label_entity_id
+_atom_site.auth_asym_id
+_atom_site.auth_comp_id
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . DPN 1 1 ? A 1.827 10.634 9.863 1 1 A DPN 3.76 1
+ATOM 2 C CA . DPN 1 1 ? A 1.085 9.378 9.803 1 1 A DPN 4.99 1
+ATOM 3 C C . DPN 1 1 ? A 1.404 8.637 8.507 1 1 A DPN 3.62 1
+ATOM 4 O O . DPN 1 1 ? A 2.574 8.428 8.217 1 1 A DPN 4.55 1
+ATOM 5 C CB . DPN 1 1 ? A 1.453 8.470 10.970 1 1 A DPN 9.06 1
+ATOM 6 C CG . DPN 1 1 ? A 0.629 7.178 10.956 1 1 A DPN 12.22 1
+ATOM 7 C CD1 . DPN 1 1 ? A -0.708 7.179 11.364 1 1 A DPN 18.03 1
+ATOM 8 C CD2 . DPN 1 1 ? A 1.323 6.005 10.464 1 1 A DPN 13.91 1
+ATOM 9 C CE1 . DPN 1 1 ? A -1.407 5.887 11.315 1 1 A DPN 24.41 1
+ATOM 10 C CE2 . DPN 1 1 ? A 0.603 4.802 10.473 1 1 A DPN 20.34 1
+ATOM 11 C CZ . DPN 1 1 ? A -0.792 4.835 10.896 1 1 A DPN 28.1 1
+ATOM 12 N N . MAA 2 2 ? A 0.403 8.136 7.775 1 1 A MAA 3.48 1
+ATOM 13 C CA . MAA 2 2 ? A 0.781 7.215 6.697 1 1 A MAA 3.44 1
+ATOM 14 C C . MAA 2 2 ? A 1.316 7.925 5.439 1 1 A MAA 3.19 1
+ATOM 15 O O . MAA 2 2 ? A 1.691 7.259 4.482 1 1 A MAA 3.6 1
+ATOM 16 C CB . MAA 2 2 ? A -0.296 6.228 6.324 1 1 A MAA 4.79 1
+ATOM 17 C CM . MAA 2 2 ? A -1.025 8.496 7.853 1 1 A MAA 4.97 1
+ATOM 18 N N . LEU 3 3 ? A 1.371 9.261 5.465 1 1 A LEU 2.73 1
+ATOM 19 C CA . LEU 3 3 ? A 2.059 9.966 4.379 1 1 A LEU 2.82 1
+ATOM 20 C C . LEU 3 3 ? A 3.566 9.692 4.372 1 1 A LEU 3.49 1
+ATOM 21 O O . LEU 3 3 ? A 4.205 9.875 3.318 1 1 A LEU 4.62 1
+ATOM 22 C CB . LEU 3 3 ? A 1.808 11.458 4.477 1 1 A LEU 3.03 1
+ATOM 23 C CG . LEU 3 3 ? A 0.359 11.880 4.170 1 1 A LEU 3.43 1
+ATOM 24 C CD1 . LEU 3 3 ? A 0.001 11.641 2.735 1 1 A LEU 3.78 1
+ATOM 25 C CD2 . LEU 3 3 ? A 0.198 13.380 4.501 1 1 A LEU 4.71 1
+ATOM 26 N N . DIL 4 4 ? A 4.138 9.300 5.509 1 1 A DIL 3.91 1
+ATOM 27 C CA . DIL 4 4 ? A 5.566 8.970 5.530 1 1 A DIL 5.02 1
+ATOM 28 C C . DIL 4 4 ? A 6.398 10.239 5.693 1 1 A DIL 4.15 1
+ATOM 29 O O . DIL 4 4 ? A 6.336 10.900 6.718 1 1 A DIL 4.12 1
+ATOM 30 C CB . DIL 4 4 ? A 5.850 7.986 6.695 1 1 A DIL 6.12 1
+ATOM 31 C CG1 . DIL 4 4 ? A 5.017 6.695 6.555 1 1 A DIL 6.42 1
+ATOM 32 C CG2 . DIL 4 4 ? A 7.360 7.668 6.698 1 1 A DIL 12.81 1
+ATOM 33 C CD1 . DIL 4 4 ? A 5.051 5.829 7.811 1 1 A DIL 11.37 1
+ATOM 34 N N . DPR 5 5 ? A 7.228 10.590 4.703 1 1 A DPR 5.07 1
+ATOM 35 C CA . DPR 5 5 ? A 8.097 11.749 4.872 1 1 A DPR 5.05 1
+ATOM 36 C C . DPR 5 5 ? A 9.115 11.456 6.011 1 1 A DPR 4.13 1
+ATOM 37 O O . DPR 5 5 ? A 9.511 10.341 6.208 1 1 A DPR 4.9 1
+ATOM 38 C CB . DPR 5 5 ? A 8.808 11.852 3.529 1 1 A DPR 7.04 1
+ATOM 39 C CG . DPR 5 5 ? A 7.948 11.098 2.523 1 1 A DPR 8.01 1
+ATOM 40 C CD . DPR 5 5 ? A 7.427 9.956 3.379 1 1 A DPR 6.41 1
+ATOM 41 N N . PRO 6 6 ? A 9.550 12.512 6.736 1 1 A PRO 3.26 1
+ATOM 42 C CA . PRO 6 6 ? A 10.597 12.285 7.750 1 1 A PRO 3.24 1
+ATOM 43 C C . PRO 6 6 ? A 10.069 11.726 9.060 1 1 A PRO 3.59 1
+ATOM 44 O O . PRO 6 6 ? A 10.882 11.314 9.890 1 1 A PRO 4.68 1
+ATOM 45 C CB . PRO 6 6 ? A 11.165 13.697 8.001 1 1 A PRO 3.98 1
+ATOM 46 C CG . PRO 6 6 ? A 9.955 14.607 7.689 1 1 A PRO 4.5 1
+ATOM 47 C CD . PRO 6 6 ? A 9.295 13.942 6.504 1 1 A PRO 4.27 1
+ATOM 48 N N . DVA 7 7 ? A 8.749 11.796 9.290 1 1 A DVA 4.3 1
+ATOM 49 C CA . DVA 7 7 ? A 8.239 11.543 10.649 1 1 A DVA 6.3 1
+ATOM 50 C C . DVA 7 7 ? A 7.362 12.753 11.012 1 1 A DVA 5.57 1
+ATOM 51 O O . DVA 7 7 ? A 6.540 13.217 10.202 1 1 A DVA 7.11 1
+ATOM 52 C CB . DVA 7 7 ? A 7.556 10.272 10.943 1 1 A DVA 4.64 1
+ATOM 53 C CG1 . DVA 7 7 ? A 8.512 9.077 10.628 1 1 A DVA 6.52 1
+ATOM 54 C CG2 . DVA 7 7 ? A 6.392 10.181 10.097 1 1 A DVA 8.33 1
+ATOM 55 N N . DPR 8 8 ? A 7.498 13.243 12.207 1 1 A DPR 4.28 1
+ATOM 56 C CA . DPR 8 8 ? A 6.570 14.288 12.644 1 1 A DPR 3.34 1
+ATOM 57 C C . DPR 8 8 ? A 5.164 13.676 12.736 1 1 A DPR 2.83 1
+ATOM 58 O O . DPR 8 8 ? A 5.050 12.485 12.969 1 1 A DPR 3.28 1
+ATOM 59 C CB . DPR 8 8 ? A 7.103 14.685 14.039 1 1 A DPR 4.28 1
+ATOM 60 C CG . DPR 8 8 ? A 7.711 13.404 14.579 1 1 A DPR 4.94 1
+ATOM 61 C CD . DPR 8 8 ? A 8.330 12.753 13.342 1 1 A DPR 5.36 1
+ATOM 62 N N . MAA 9 9 ? A 4.104 14.502 12.578 1 1 A MAA 2.6 1
+ATOM 63 C CA . MAA 9 9 ? A 2.747 13.921 12.663 1 1 A MAA 2.79 1
+ATOM 64 C C . MAA 9 9 ? A 2.159 13.735 11.272 1 1 A MAA 2.58 1
+ATOM 65 O O . MAA 9 9 ? A 1.009 14.085 10.993 1 1 A MAA 3.29 1
+ATOM 66 C CB . MAA 9 9 ? A 1.829 14.686 13.618 1 1 A MAA 3.13 1
+ATOM 67 C CM . MAA 9 9 ? A 4.220 15.878 12.108 1 1 A MAA 3.2 1
+ATOM 68 N N . LEU 10 10 ? A 2.954 13.118 10.367 1 1 A LEU 2.74 1
+ATOM 69 C CA . LEU 10 10 ? A 2.518 12.834 9.007 1 1 A LEU 2.79 1
+ATOM 70 C C . LEU 10 10 ? A 1.794 11.496 8.846 1 1 A LEU 2.88 1
+ATOM 71 O O . LEU 10 10 ? A 1.212 11.256 7.787 1 1 A LEU 2.97 1
+ATOM 72 C CB . LEU 10 10 ? A 3.718 12.921 8.047 1 1 A LEU 2.91 1
+ATOM 73 C CG . LEU 10 10 ? A 4.211 14.340 7.829 1 1 A LEU 3.79 1
+ATOM 74 C CD1 . LEU 10 10 ? A 5.577 14.326 7.155 1 1 A LEU 4.63 1
+ATOM 75 C CD2 . LEU 10 10 ? A 3.204 15.146 6.980 1 1 A LEU 5.76 1

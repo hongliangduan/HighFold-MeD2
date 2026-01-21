@@ -1,0 +1,132 @@
+data_model
+#
+loop_
+_entity.id
+_entity.type
+_entity.src_method
+_entity.pdbx_description
+_entity.formula_weight
+_entity.pdbx_number_of_molecules
+_entity.details
+1 polymer man . . 1 .
+#
+#
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.nstd_linkage
+_entity_poly.nstd_monomer
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+_entity_poly.pdbx_seq_one_letter_code_can
+1 polypeptide(L) no no A (PRO)(MLU)(VAL)(DLE)(MLU)(MEA)(VAL)(PRO)(VAL) XXXXXXXXX
+#
+#
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.num
+_entity_poly_seq.mon_id
+_entity_poly_seq.hetero
+1 1 PRO .
+1 2 MLU .
+1 3 VAL .
+1 4 DLE .
+1 5 MLU .
+1 6 MEA .
+1 7 VAL .
+1 8 PRO .
+1 9 VAL .
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_seq_id
+_atom_site.auth_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.label_asym_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.label_entity_id
+_atom_site.auth_asym_id
+_atom_site.auth_comp_id
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . PRO 1 1 ? A 23.277 4.278 37.085 1 1 A PRO 2.11 1
+ATOM 2 C CA . PRO 1 1 ? A 23.349 4.293 38.555 1 1 A PRO 2.37 1
+ATOM 3 C C . PRO 1 1 ? A 24.331 5.391 38.977 1 1 A PRO 2.51 1
+ATOM 4 O O . PRO 1 1 ? A 25.364 5.541 38.321 1 1 A PRO 4.49 1
+ATOM 5 C CB . PRO 1 1 ? A 23.851 2.885 38.896 1 1 A PRO 4.76 1
+ATOM 6 C CG . PRO 1 1 ? A 23.428 2.044 37.703 1 1 A PRO 4.89 1
+ATOM 7 C CD . PRO 1 1 ? A 23.674 2.977 36.532 1 1 A PRO 3.33 1
+ATOM 8 N N . MLU 2 2 ? A 24.024 6.165 40.043 1 1 A MLU 2.07 1
+ATOM 9 C CA . MLU 2 2 ? A 24.843 7.358 40.281 1 1 A MLU 2.2 1
+ATOM 10 C C . MLU 2 2 ? A 24.066 8.624 39.899 1 1 A MLU 2.69 1
+ATOM 11 O O . MLU 2 2 ? A 24.186 9.666 40.536 1 1 A MLU 5.33 1
+ATOM 12 C CB . MLU 2 2 ? A 25.387 7.456 41.714 1 1 A MLU 2.4 1
+ATOM 13 C CG . MLU 2 2 ? A 26.122 6.204 42.195 1 1 A MLU 2.45 1
+ATOM 14 C CD1 . MLU 2 2 ? A 26.522 6.359 43.666 1 1 A MLU 3.28 1
+ATOM 15 C CD2 . MLU 2 2 ? A 27.349 5.890 41.361 1 1 A MLU 4.01 1
+ATOM 16 C CN . MLU 2 2 ? A 22.835 5.992 40.863 1 1 A MLU 2.48 1
+ATOM 17 N N . VAL 3 3 ? A 23.287 8.509 38.820 1 1 A VAL 2.34 1
+ATOM 18 C CA . VAL 3 3 ? A 22.437 9.597 38.343 1 1 A VAL 2.43 1
+ATOM 19 C C . VAL 3 3 ? A 20.989 9.309 38.765 1 1 A VAL 2.31 1
+ATOM 20 O O . VAL 3 3 ? A 20.437 9.992 39.622 1 1 A VAL 3.02 1
+ATOM 21 C CB . VAL 3 3 ? A 22.607 9.835 36.832 1 1 A VAL 2.81 1
+ATOM 22 C CG1 . VAL 3 3 ? A 21.705 10.994 36.406 1 1 A VAL 3.68 1
+ATOM 23 C CG2 . VAL 3 3 ? A 24.072 10.120 36.507 1 1 A VAL 4.72 1
+ATOM 24 N N . DLE 4 4 ? A 20.391 8.266 38.183 1 1 A DLE 2.29 1
+ATOM 25 C CA . DLE 4 4 ? A 19.047 7.885 38.547 1 1 A DLE 2.34 1
+ATOM 26 C C . DLE 4 4 ? A 18.040 8.866 37.949 1 1 A DLE 2.3 1
+ATOM 27 O O . DLE 4 4 ? A 18.254 9.397 36.862 1 1 A DLE 2.66 1
+ATOM 28 C CB . DLE 4 4 ? A 18.738 6.479 38.001 1 1 A DLE 2.71 1
+ATOM 29 C CG . DLE 4 4 ? A 19.517 5.360 38.712 1 1 A DLE 3.28 1
+ATOM 30 C CD1 . DLE 4 4 ? A 19.547 4.113 37.856 1 1 A DLE 5.03 1
+ATOM 31 C CD2 . DLE 4 4 ? A 18.943 5.086 40.102 1 1 A DLE 6.98 1
+ATOM 32 N N . MLU 5 5 ? A 16.884 9.102 38.626 1 1 A MLU 2.37 1
+ATOM 33 C CA . MLU 5 5 ? A 15.916 9.963 37.907 1 1 A MLU 2.22 1
+ATOM 34 C C . MLU 5 5 ? A 15.378 9.131 36.732 1 1 A MLU 2.29 1
+ATOM 35 O O . MLU 5 5 ? A 14.906 8.020 36.982 1 1 A MLU 3.34 1
+ATOM 36 C CB . MLU 5 5 ? A 14.747 10.410 38.800 1 1 A MLU 2.54 1
+ATOM 37 C CG . MLU 5 5 ? A 13.850 11.470 38.147 1 1 A MLU 2.54 1
+ATOM 38 C CD1 . MLU 5 5 ? A 12.591 11.640 38.992 1 1 A MLU 3.52 1
+ATOM 39 C CD2 . MLU 5 5 ? A 14.561 12.815 38.005 1 1 A MLU 3.69 1
+ATOM 40 C CN . MLU 5 5 ? A 16.453 8.337 39.798 1 1 A MLU 4.13 1
+ATOM 41 N N . MEA 6 6 ? A 15.447 9.613 35.478 1 1 A MEA 2.66 1
+ATOM 42 C CA . MEA 6 6 ? A 14.879 8.815 34.389 1 1 A MEA 3.39 1
+ATOM 43 C C . MEA 6 6 ? A 15.940 8.416 33.344 1 1 A MEA 3.91 1
+ATOM 44 O O . MEA 6 6 ? A 15.628 8.268 32.185 1 1 A MEA 5.71 1
+ATOM 45 C CB . MEA 6 6 ? A 13.722 9.527 33.665 1 1 A MEA 4.72 1
+ATOM 46 C CG . MEA 6 6 ? A 12.634 9.997 34.621 1 1 A MEA 4.25 1
+ATOM 47 C CD1 . MEA 6 6 ? A 12.234 11.301 34.570 1 1 A MEA 4.73 1
+ATOM 48 C CD2 . MEA 6 6 ? A 12.011 9.132 35.499 1 1 A MEA 4.8 1
+ATOM 49 C CE1 . MEA 6 6 ? A 11.178 11.759 35.374 1 1 A MEA 5.28 1
+ATOM 50 C CE2 . MEA 6 6 ? A 10.973 9.583 36.310 1 1 A MEA 4.92 1
+ATOM 51 C CZ . MEA 6 6 ? A 10.550 10.900 36.241 1 1 A MEA 4.92 1
+ATOM 52 C C1 . MEA 6 6 ? A 15.976 10.914 35.130 1 1 A MEA 3.35 1
+ATOM 53 N N . VAL 7 7 ? A 17.203 8.248 33.788 1 1 A VAL 3.5 1
+ATOM 54 C CA . VAL 7 7 ? A 18.198 7.745 32.824 1 1 A VAL 3.74 1
+ATOM 55 C C . VAL 7 7 ? A 18.871 6.516 33.413 1 1 A VAL 3.23 1
+ATOM 56 O O . VAL 7 7 ? A 18.984 6.355 34.637 1 1 A VAL 3.28 1
+ATOM 57 C CB . VAL 7 7 ? A 19.223 8.834 32.462 1 1 A VAL 4.23 1
+ATOM 58 C CG1 . VAL 7 7 ? A 19.964 9.316 33.636 1 1 A VAL 4.88 1
+ATOM 59 C CG2 . VAL 7 7 ? A 18.544 9.952 31.693 1 1 A VAL 5.95 1
+ATOM 60 N N . PRO 8 8 ? A 19.371 5.669 32.521 1 1 A PRO 2.83 1
+ATOM 61 C CA . PRO 8 8 ? A 19.776 4.322 32.943 1 1 A PRO 2.59 1
+ATOM 62 C C . PRO 8 8 ? A 21.257 4.300 33.366 1 1 A PRO 2.22 1
+ATOM 63 O O . PRO 8 8 ? A 22.100 3.607 32.783 1 1 A PRO 2.65 1
+ATOM 64 C CB . PRO 8 8 ? A 19.504 3.461 31.713 1 1 A PRO 3.51 1
+ATOM 65 C CG . PRO 8 8 ? A 19.724 4.413 30.556 1 1 A PRO 3.79 1
+ATOM 66 C CD . PRO 8 8 ? A 19.124 5.710 31.047 1 1 A PRO 3.47 1
+ATOM 67 N N . VAL 9 9 ? A 21.538 5.089 34.424 1 1 A VAL 2.11 1
+ATOM 68 C CA . VAL 9 9 ? A 22.906 5.325 34.880 1 1 A VAL 2.23 1
+ATOM 69 C C . VAL 9 9 ? A 22.866 5.359 36.414 1 1 A VAL 2.14 1
+ATOM 70 O O . VAL 9 9 ? A 22.473 6.372 37.007 1 1 A VAL 2.37 1
+ATOM 71 C CB . VAL 9 9 ? A 23.479 6.653 34.328 1 1 A VAL 3.43 1
+ATOM 72 C CG1 . VAL 9 9 ? A 24.931 6.817 34.800 1 1 A VAL 4.91 1
+ATOM 73 C CG2 . VAL 9 9 ? A 23.375 6.739 32.794 1 1 A VAL 5.05 1

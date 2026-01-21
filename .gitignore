@@ -1,0 +1,7 @@
+/log
+*.zip
+*.pyc
+*.npy
+*.h5
+*.hdf5
+*.hdf
